@@ -92,7 +92,7 @@ geometry FGeometry {
 # Change them to some other formulae to see how the solid geometry changes 
 # based on the parameters domain and the sampling resolution defined below
 definition "x=(0.2+0.5*u)*sin(pi/2+v*pi);
-			y=0.2*sin(2*pi*u)+0.5*w;
+			y=0.2*sin(2*pi*u);
 			z=(0.2+0.5*u)*cos(pi/2+v*pi);"
 
 # The parameters domain. Explore what happens when you make it 
