@@ -91,9 +91,9 @@ geometry FGeometry {
 # The parametric formulae defining the solid. 
 # Change them to some other formulae to see how the solid geometry changes 
 # based on the parameters domain and the sampling resolution defined below
-definition "x=0.7*u*sin(2*pi*v);
-			y=0.7*w;
-			z=0.7*u*cos(2*pi*v);"
+definition "x=0.5*v*cos(u*2*pi);
+			y=0.5*v*sin(u*2*pi);
+			z=w*0.9 + 0.5;"
 
 # The parameters domain. Explore what happens when you make it 
 # smaller or bigger
