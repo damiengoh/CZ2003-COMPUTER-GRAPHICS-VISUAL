@@ -104,7 +104,7 @@ parameters [0 1 0 1 0 1]
 # geometry function. 
 # Explore how the shape and the rendering speed change when you 
 # reduce or increase the resolution.
-resolution [3 3 3]
+resolution [75 75 75]
 
  }     
 
